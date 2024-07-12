@@ -1,0 +1,213 @@
+/* esha mahajan */
+body{
+    background-color: #000000;
+    margin:0;
+    padding:0;
+
+}
+h2{
+    text-shadow: 0px 0px 10px #5cfaff,
+                 0px 0px 10px #5cfaff, 
+                 0px 0px 10px #5cfaff,
+                 0px 0px 10px #5cfaff;
+                 font-size:50px;
+                 color:#400c4c;
+                 margin-bottom:8%;
+ }
+.container{
+    border:3px solid white ;
+   
+    border-radius: 50%;
+    height:25em;
+    width:30em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  
+   
+
+}
+h1{
+    font-size:45px;
+    position:relative;
+    margin-top:10%;
+    margin-bottom: 12%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#output{
+    color:#efefef
+}
+
+#begin{
+    text-decoration: none;
+    position:relative;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    cursor:pointer;
+    color:#fff;
+    width:9em;
+    height:3em;
+    line-height: 2em;
+    color:blue;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size:300%;
+     margin-left: 1em;
+     margin-right: 1em;
+     border-radius: 30px;
+    z-index:1;
+    } 
+    #begin:hover{
+        animation:ani 8s linear infinite;
+        border: none;
+    }
+    @keyframes ani {
+        0%{
+            background-position:0%;
+        }
+        100%{
+            background-position: 400%;
+        }
+    }
+    #begin:before{
+        content:"";
+        position:absolute;
+        top:-5px;
+        left:-5px;
+        right:-5px;
+        z-index:-1;
+        background:linear-gradient(90dge,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size:400%;
+        border-radius: 35px;
+        transition:1s;
+    }
+    #begin:hover::before{
+        filter:blue(20px);
+
+    }
+    #begin:active{
+
+        background:linear-gradient(90dge,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    }
+#reset{
+    text-decoration: none;
+    position:relative;
+    border: none;
+    font-size: 14px;
+    font-family: inherit;
+    cursor:pointer;
+    color:#fff;
+    width:9em;
+    height:3em;
+    line-height: 2em;
+    color:blue;
+    text-align: center;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size:300%;
+     margin-left: 1em;
+     margin-right: 1em;
+     border-radius: 30px;
+    z-index:1;
+    } 
+    #reset:hover{
+        animation:ani 8s linear infinite;
+        border: none;
+    }
+    @keyframes ani {
+        0%{
+            background-position:0%;
+        }
+        100%{
+            background-position: 400%;
+        }
+    }
+    #reset:before{
+        content:"";
+        position:absolute;
+        top:-5px;
+        left:-5px;
+        right:-5px;
+        z-index:-1;
+        background:linear-gradient(90dge,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size:400%;
+        border-radius: 35px;
+        transition:1s;
+    }
+    #reset:hover::before{
+        filter:blue(20px);
+
+    }
+   #reset :active{
+
+        background:linear-gradient(90dge,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    }
+
+
+
+
+#lap{
+    
+        text-decoration: none;
+        position:relative;
+        border: none;
+        font-size: 14px;
+        font-family: inherit;
+        cursor:pointer;
+        color:#fff;
+        width:9em;
+        height:3em;
+        line-height: 2em;
+        color:blue;
+        text-align: center;
+        background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size:300%;
+         margin-left: 1em;
+         margin-right: 1em;
+         border-radius: 30px;
+        z-index:1;
+        } 
+        #lap:hover{
+            animation:ani 8s linear infinite;
+            border: none;
+        }
+        @keyframes ani {
+            0%{
+                background-position:0%;
+            }
+            100%{
+                background-position: 400%;
+            }
+        }
+        #lap:before{
+            content:"";
+            position:absolute;
+            top:-5px;
+            left:-5px;
+            right:-5px;
+            z-index:-1;
+            background:linear-gradient(90dge,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+            background-size:400%;
+            border-radius: 35px;
+            transition:1s;
+        }
+        #lap:hover::before{
+            filter:blue(20px);
+    
+        }
+        #lap:active{
+    
+            background:linear-gradient(90dge,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        }
+
+
+@media  only screen and(min-width:500px)
+ {
+    h1{
+        margin-top:5%;
+}
+#lap{
+    width:45%;
+}
+ }
